@@ -1,0 +1,29 @@
+{
+  "name": "crmgraphql",
+  "version": "1.0.0",
+  "description": "Curso de GraphQL",
+  "main": "lib/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node .",
+    "build": "babel src/ -d lib/",
+    "prepublish": "npm run build",
+    "flow": "flow",
+    "dev": " nodemon --watch src --exec 'npm run build && npm start' "
+  },
+  "author": "Elias Funes",
+  "license": "ISC",
+  "dependencies": {
+    "apollo-server": "^2.14.0",
+    "dotenv": "^8.2.0",
+    "mongoose": "^5.9.18",
+    "ramda": "^0.27.0"
+  },
+  "devDependencies": {
+    "@babel/cli": "^7.10.1",
+    "@babel/core": "^7.10.2",
+    "@babel/preset-flow": "^7.10.1",
+    "flow-bin": "^0.127.0",
+    "nodemon": "^2.0.4"
+  }
+}

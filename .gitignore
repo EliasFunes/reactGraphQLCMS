@@ -1,0 +1,4 @@
+.idea/
+variables.env
+/lib
+/node_modules
