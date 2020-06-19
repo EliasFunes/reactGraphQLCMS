@@ -14,7 +14,7 @@
   "author": "Elias Funes",
   "license": "ISC",
   "dependencies": {
-    "apollo-server": "^2.14.0",
+    "apollo-server": "^2.14.2",
     "dotenv": "^8.2.0",
     "mongoose": "^5.9.18",
     "ramda": "^0.27.0"
